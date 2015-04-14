@@ -9,6 +9,7 @@
 .nav-pills{
     margin-top:20px;
     width:100%;
+    font-size: 20px;
 }
 
 .left-pane{
@@ -21,4 +22,5 @@
     float: left; 
     width: 80%; 
     padding:10px;
+    padding-left:10%;
 }
