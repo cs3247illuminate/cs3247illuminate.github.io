@@ -1,31 +1,39 @@
 .nav-pills > li.active > a {
     background-color:grey;
+    color:white;
 }
 
 .nav-pills>li.active>a:hover {
-    background-color:black;
+    background-color:grey;
 }
 
-.nav-pills{
+.nav-pills {
     margin-top:20px;
     width:100%;
     font-size: 20px;
 }
 
-.left-pane{
-    float: left; 
-    width: 20%; 
-    padding:10px;
+.nav-pills a {
+    color: red;
 }
 
-.right-pane{
+.left-pane {
+    float: left;
+    width: 20%; 
+    padding:10px;
+    background:black;
+    height: 100vh;
+}
+
+.right-pane {
     float: left; 
     width: 80%; 
     padding:10px;
     padding-left:10%;
+    height: 100vh;
 }
 
-.dropdown-menu{
-    width:300px;
+.dropdown-menu {
+    width:250px;
     height:110px;
 }
