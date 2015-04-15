@@ -22,11 +22,18 @@
 
 	<body>
         <div class="left-pane">
-            <h1>Illuminate</h1>
-            
+            <h1>Illuminate</h1><br>
             <ul class="nav nav-pills nav-stacked">
                 <li role="presentation"><a href="index.html">Home</a></li>
-                <li role="presentation" class ="active"><a href="#">User Guide</a></li>
+                <li class="dropdown active">
+                    <a class="dropdown-toggle" data-toggle="dropdown">
+                        Game Guide
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="lead"><a href=system_requirements.html>System Requirements</a></li>
+                        <li class="lead"><a href=#>User Instructions</a></li>
+                    </ul>
+                </li>
                 <li role="presentation"><a href="download.html">Download</a></li>
                 <li role="presentation"><a href="gameplay_video.html">Gameplay Video</a></li>
                 <li role="presentation"><a href="credits.html">Credits</a></li>
@@ -34,22 +41,11 @@
         </div>
         
         <div class="right-pane">
-             <div class="starter-template lead">
-                <h1>User Guide</h1><br>
-                <p><u>Hardware Requirements:</u></p>
-                 <li>CPU: Intel Dual Core at 2.4 GHz</li>
-                 <li>RAM: 4 GB</li>
-                 <li>Video Card: Intel HD Graphics 4000</li>
-                 <li>Disk Space: 200 MB</li>
-                 <li>Mouse and Keyboard needed</li>
-                 <br>
-                <p><u>Software Requirements:</u></p>
-                 <li>OS: Windows 7 and above</li>
-                 <li>DirectX 7.0</li>
-                 <br>
-                <p><u>Instructions to run Illuminuate:</u></p>
-                 <li>Extract all files in zip into a folder</li>
-                 <li>Run Illuminuate.exe</li>
+             <div class="starter-template">
+                <h1>Bootstrap starter template</h1>
+                <p class="lead">Use this document as a way to quickly start any new project.
+                    <br> All you get is this text and a mostly barebones HTML document.
+                </p>
             </div>
         </div>
 	</body>
