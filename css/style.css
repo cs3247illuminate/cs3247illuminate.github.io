@@ -10,18 +10,18 @@
 
 .nav-pills {
     margin-top:20px;
-    font-size: 20px;
 }
 
 .nav-pills a {
     color: maroon;
+    font-size: 20px;
 }
 
 .left-pane {
     float: left;
     width: 20%; 
-    padding:10px;
     background:black;
+    padding: 10px;
     height: 100%;
     min-height: 100%;
     margin: auto;
